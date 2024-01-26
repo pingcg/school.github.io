@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Noto+Serif:wght@300&family=PT+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(255, 240, 240);
+}
+.PaddingSlideShow{
+    background-color:rgb(255, 240, 240);
+}
+/* ++++++++++++++++++++++
+<!-- Logo school  -->
++++++++++++++++++++++++ */
+.showdowHeader{
+    box-shadow: 0px 0 10px black;
+}
+.box {
+    width: 93%;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: test;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    text-shadow: 3px 3px 4px black;
+    float: left;
+}
+.box span{
+    font-size: 1.9rem;
+    font-family: 'Bokor';
+}
+
+@keyframes test {
+    0% {
+        color: white;
+    }
+    25%{
+        color: blue;
+    }
+    50% {
+        color: orange;
+    }
+    75%{
+        color:green ;
+    }
+
+    100% {
+        color: red;
+    }
+}
+.containerWidth{
+    height: 4.5rem;
+}
+.container img{
+    z-index: 0;
+}
+
+
+/* ++++++++++++++++++++++
+<!-- Navber list  -->
++++++++++++++++++++++++ */
+.scroll_navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color:  rgb(255, 232, 201);
+}
+.navbar_background{
+    background-color:  rgb(255, 232, 201);
+}
+.navbar-bb{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.nav-item{
+    font-size: 1.3rem;
+}
+.nav-item a{
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-item a:hover{
+    color: orange;
+}
+/* ++++++++++++++++++++++
+<!-- slideshow  -->
++++++++++++++++++++++++ */
+
+.carousel-item img{
+    width: 100%;
+    height: 45rem
+}
+.slideshow{
+    width: 86.6%;
+    margin: auto;
+    overflow: hidden;
+}
+/* <!--  BRANCH  ACTION-->  */
+.componetImg{
+    width: 100%;
+    height:100%;
+    padding-bottom: 1rem;
+}
+.componetImg img{
+    width: 100%;
+    height: 17rem;
+    /* border-radius: 0.5rem 0.5rem 0rem 0rem; */
+}
+.componetImg p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.fa-star{
+    font-size: 1.2rem;
+}
+/* ++++++++++++++++++++++
+<!-- FULL WORD OF STEM  -->
++++++++++++++++++++++++ */
+.BackgroundIcone{
+    margin-top: 2rem;
+    background-color: rgb(211, 211, 255);
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 3px rgb(249, 249, 249);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ShowIcon{
+    width: 35%;
+    height: 6rem;
+    font-size: 3rem;
+    color: white;
+    float: left;
+    padding: 5px;
+    
+}
+.ShowText{
+    width: 65%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.ShowText h3{
+    margin: 6px 0px 0px 0px;
+    font-family: 'Battambang';
+    font-size:2rem;
+}
+.ShowText h4 span{
+ color: green;
+}
+.ShowText h4{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+
+/* <!-- SAMROANG BRANCH  --> */
+.NamefontSamroang h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+/* <!-- SHOW ALL SUBJECT  --> */
+.SubjectIcon{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 0;
+    align-items: center;
+    font-size: 2.5rem;
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 0 0 5px orange;
+    padding: 0.7rem;
+    margin: 5px;
+}
+.fa-file-word,.fa-file-excel,.fa-file-powerpoint,.fa-computer{
+    margin-right: 1rem;
+}
+/* .    <!-- MANAGEMENT STEM  -->  */
+.control_manager{
+    box-shadow: 0 0 10px black;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgManager{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgManager img{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+/* BANER STEM  */
+.banershowdow{
+    background-color: black;
+}
+.baner{
+    width: 50%;
+    height: 16rem;
+    float: left;
+    /* padding: 0.1rem; */
+}
+.baner button{
+    width: 12rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.baner img{
+    width: 100%;
+    height: 100%;
+}
+
+/* //////////////////////  */
+.about_paragraph{
+    width: 100%;
+    height: 80%;
+    color: white;
+}
+.about_buttoun button{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 25px;
+}
+.img_con{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.controll_img{
+    width: 100%;
+    height: 95%;
+    margin: 2px;
+}
+.controll_img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER  */
+.controller_footer{
+
+    background-color: rgb(255, 232, 201);
+}
+.footer{
+    padding-bottom: 1rem;
+}
+.footerphoto .col-md-4 img{
+    height: 6rem;
+    margin: auto;
+}
+.footer_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.location_title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Battambang';
+}
+.location{
+    font-size: 1.2rem;
+    font-family: 'Bokor';
+}
+.about_title{
+    width: 100%;
+    height: 6rem;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_title h3{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.service h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.service h3 span{
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-family: 'Battambang';
+} 
+.service img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.icon_social p{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.icon_social p a{
+    font-size: 2rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.icon_social p span{
+    font-size: 0.84rem;
+    /* font-weight: bold; */
+    font-family: 'Battambang';
+}
+@media only screen and (max-width: 500px) {
+    .box{
+        font-size: 1rem;
+    }
+    .box span{
+        font-size: 1rem;
+        font-family: 'Bokor';
+    }
+    .containerWidth{
+        width: 60%;
+        height: 20rem;
+    }
+    .img{
+        width: 50%;
+        height: 50%;
+        margin: auto;
+    }
+
+/* navabar  */
+
+    .navbar-toggler{
+        background-color:orange;
+    }
+    .navbar-toggler-icon{
+        font-size: 1rem;
+        color:white;
+    }
+    .nav-item a{
+        color: black;
+    }
+
+    /* slide show  */
+
+
+    /* full word STEM  */
+    
+    .ShowIcon{
+        font-size: 2.3rem;
+        margin:0;
+    }
+    .ShowText h3{
+        font-size: 2rem;
+    }
+    .ShowText h4{
+        font-size: 2rem;
+    }
+
+    /* SHOW ALL SUBJECT   */
+    /* BRANCH ACTION  */
+
+}
+
+@media only screen and (max-width: 800px) {
+    /* ++++++++++++++++++++++
+    <!-- Logo school  -->
+    +++++++++++++++++++++++ */
+
+    .box{
+        font-size: 1.3rem;
+    }
+    .box span{
+        font-size: 1.9rem;
+        font-family: 'Bokor';
+    }
+    .containerWidth{
+        height: 80%;
+    }
+   .img{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+   }
+    .navbar-toggler{
+        background-color:orange;
+    }
+    .navbar-toggler-icon{
+        font-size: 0.95rem;
+        color: white;
+    }
+
+   /* ++++++++++++++++++++++
+    <!-- slideshow  -->
+    +++++++++++++++++++++++ */
+
+    .carousel-item img{
+        width: 100%;
+        height: 50%;
+    }
+    .slideshow{
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .componetImg img{
+        width: 100%;
+        height: 22rem;
+    }
+    /* <!-- SAMROANG BRANCH  --> */
+    .NamefontSamroang h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media  screen and (max-width: 992px) {
+ /* ++++++++++++++++++++++
+    <!-- Logo school  -->
+    +++++++++++++++++++++++ */
+
+    .box{
+        font-size: 1.3rem;
+    }
+    .box span{
+        font-size: 1.9rem;
+        font-family: 'Bokor';
+    }
+    .containerWidth{
+        height: 15rem;
+    }
+   .img{
+    width: 50%;
+    height: 70%;
+    margin: auto;
+   }
+
+  /* ++++++++++++++++++++++
+    <!-- Navbar  -->
+    +++++++++++++++++++++++ */
+
+
+   .navbarHeight{
+    margin-top:1rem;
+   }
+    .navbar-toggler{
+        background-color:orange;
+    }
+    .navbar-toggler-icon{
+        font-size: 0.95rem;
+        color: white;
+    }
+
+   /* ++++++++++++++++++++++
+    <!-- slideshow  -->
+    +++++++++++++++++++++++ */
+
+    .carousel-item img{
+        width: 100%;
+        height: 40rem
+    }
+    .slideshow{
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .componetImg img{
+        width: 100%;
+        height: 22rem;
+    }
+}
